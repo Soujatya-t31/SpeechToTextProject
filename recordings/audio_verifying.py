@@ -2,6 +2,6 @@
 
 import librosa
 
-audio, sr = librosa.load("recordings/Good_Morning.wav", sr=None, mono=False)
+audio, sr = librosa.load("outputs/preprocessed/Soujatya_Taluker_processed.wav", sr=None, mono=False)
 print("Sample Rate:", sr)
 print("Shape:", audio.shape)

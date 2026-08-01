@@ -7,7 +7,7 @@ import numpy as np
 
 # Load audio
 audio, sr = librosa.load(
-    "recordings/Good_Morning.wav",
+    "outputs/preprocessed/Soujatya_Taluker_processed.wav",
     sr=None
 )
 
@@ -55,7 +55,7 @@ plt.colorbar(
 
 
 plt.title(
-    "Mel Spectrogram"
+    "Mel Spectrogram Of Soujatya Talukder"
 )
 
 
